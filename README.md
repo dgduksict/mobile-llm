@@ -37,6 +37,13 @@ cd mobile-llm
 
 ### 2. Export the Model to ONNX
 
+0. Create a new virtual environment and activate it:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 1. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
